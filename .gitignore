@@ -1,0 +1,52 @@
+# dependencies
+node_modules/
+.pnp
+.pnp.*
+
+# next
+.next/
+out/
+*.tsbuildinfo
+
+# env and secrets
+.env
+.env.*
+!.env.example
+
+# vercel / deploy
+.vercel
+
+# logs
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# os / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# packaged site tarball from ./deploy.sh pack
+/dist/
+
+# local upload used to seed the project
+/uploads/
+
+# macOS archive junk
+._*
+.AppleDouble
+
+.bt_password.env
+.bt_password.env
+
+# large local demo source videos (frames live under core/public/demos)
+/samples/*.mp4
+
+# local deploy tooling and secrets (kept on your machine only)
+/deploy.sh
+/build.sh
+/deploy/
+/bin/
